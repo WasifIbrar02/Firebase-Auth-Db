@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- /<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Module-2 login</title>
+</head>
+<style>
+    * {
+        background-color: lightgrey;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: max-content;
+        margin-left: 400px;
+        margin-top: 150px;
+        padding: 50px;
+        background-color: rgb(224, 222, 222);
+
+
+    }
+
+    .inpp {
+        border-color: rgb(255, 255, 255);
+        background-color: white;
+        width: 50vh;
+
+    }
+
+    .btn {
+        background-color: black;
+        color: beige;
+        width: 100px;
+        height: 30px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <img src="/bitrupt-2.webp" alt="">
+            <br>
+            <input type="text" name="email" placeholder="Email" class="inpp" id="email" value="">
+            <br>
+            <input type="password" name="password" placeholder="Password" class="inpp" id="pass" value="">
+            <br>
+            <input type="button" value="Login" id="Login" class="btn" onclick="chek()">
+        </div>
+
+    </div>
+
+</body>
+<script src="/app.js"></script>
+
+</html>

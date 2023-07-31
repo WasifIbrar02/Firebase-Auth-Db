@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- <link rel="stylesheet" href="<link rel=" stylesheet. -->
+    <!-- href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>module 2 - Contact Us</title>
+</head>
+
+<body>
+    <div class="main">
+        <img class="bit" src="/bitrupt-2.webp" />
+
+        <p class="chk">
+            MY First Website By Bitrupt
+        </p>
+    </div>
+    <div class="main-side">
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        <i class="fa-solid fa-house fas"></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                </li>
+                <li> <a href="/Profile.html">
+                        <i class="fa-solid fa-user fas"></i>
+                        <span class="nav-item">Profile</span>
+                    </a></li>
+                <li> <a href="/AboutUs.html">
+                        <i class="fa-solid fa-users fas"></i>
+                        <span class="nav-item">About Us</span>
+                    </a></li>
+                <li> <a href="/ContactUs.html">
+                        <i class="fa-solid fa-envelope fas"></i>
+                        <span class="nav-item">Contact Us</span>
+                    </a></li>
+                <br>
+                <br>
+                <br>
+                <li> <a href="login.html" class="logout">
+                        <i class="fa-solid fa-right-from-bracket fas"></i>
+                        <span class="nav-item">Log out</span>
+                    </a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+
+            <div class="left">
+                <div class="responsive-1">
+
+                    <div class="input-1">
+
+                        <span>Full Name:</span>
+                        <input placeholder="Name" placeholder="Your Name" id="Name" value="">
+                    </div>
+                    <!-- <br> -->
+                    <div class="input-2">
+                        <span>Email:</span>
+
+                        <input class=" Email" placeholder="Your Email" id="Email" value="">
+                    </div>
+                </div>
+                <br>
+                <div class="responsive-2">
+
+                    <div class="input-3" class="">
+                        <label for="Country">Country:</label>
+                        <select id="Country" value="">
+                            <option value="PAK">Pakistan</option>
+                            <option value="UAE">Dubai</option>
+                            <option value="USA">America</option>
+                            <option value="AUS" selected>Austerlia</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="input-4">
+                        <span>Subject:</span>
+                        <input class="Subject" placeholder="Subject" id="Subject" value="">
+                    </div>
+                </div>
+                <br>
+                <div class="input-5">
+                    <p>Your Message</p>
+                    <textarea name="" cols="50" rows="5" placeholder="Write Something" id="Your message"
+                        value=""></textarea>
+                </div>
+                <br>
+                <div class="input-6">
+                    <button class="btn" style="border: 2px solid grey; background-color: grey; color: white;"
+                        id="Submit" value="" class="btn" onclick="rcs()">Submit</button>
+                </div>
+            </div>
+            <div class="right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.2880431710214!2d67.02382857459943!3d24.85400994551716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5a70a8370f%3A0x71747af0780cf74f!2sBitrupt!5e0!3m2!1sen!2s!4v1685613642192!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe class="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.189256785573!2d66.99630285786704!3d24.85091869601465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315f8b867336d%3A0x575012bf403dfee1!2sWazir%20Mansion%20(%20Quaid-e-Azam%20Place)!5e0!3m2!1sen!2s!4v1673374993434!5m2!1sen!2s"
+                    width="575px" height="544px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/app.js"></script>
+
+</html>
